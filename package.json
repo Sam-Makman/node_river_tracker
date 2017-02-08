@@ -1,0 +1,22 @@
+{
+  "name": "rivers",
+  "version": "1.0.0",
+  "description": "A River app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently 'nodemon server.js' 'cd client && npm start' "
+  },
+  "author": "Sam Makman",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-react-css-modules": "^2.2.0",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "express-fileupload": "0.0.6",
+    "mongodb": "^2.2.22"
+  },
+  "devDependencies": {
+    "concurrently": "^3.1.0"
+  }
+}
